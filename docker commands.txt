@@ -1,0 +1,11 @@
+1 - Start database
+docker compose up -d postgres-prod
+
+2 - Check running containers
+docker compose ps
+
+3 - Check container logs
+docker compose logs postgres-prod
+
+4 - List all docker volumes
+docker volume ls
